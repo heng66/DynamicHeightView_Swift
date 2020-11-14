@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053CD9522FD1AFBBC5880D4F /* libPods-DynamicHeightView_Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F88421AB91CA44C0F62C42 /* libPods-DynamicHeightView_Swift.a */; };
+		B0B75FAA255FE0E400BA7055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FA9255FE0E400BA7055 /* AppDelegate.swift */; };
+		B0B75FAE255FE0E400BA7055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FAD255FE0E400BA7055 /* ViewController.swift */; };
+		B0B75FB1255FE0E400BA7055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B75FAF255FE0E400BA7055 /* Main.storyboard */; };
+		B0B75FB3255FE0E400BA7055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B75FB2255FE0E400BA7055 /* Assets.xcassets */; };
+		B0B75FB6255FE0E400BA7055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B75FB4255FE0E400BA7055 /* LaunchScreen.storyboard */; };
+		B0B75FC1255FE0E500BA7055 /* DynamicHeightView_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FC0255FE0E500BA7055 /* DynamicHeightView_SwiftTests.swift */; };
+		B0B75FCC255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FCB255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.swift */; };
+		B0B75FE5255FE1EE00BA7055 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FE4255FE1EE00BA7055 /* DynamicTableViewCell.swift */; };
+		B0B75FEF255FE22900BA7055 /* DynamicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FEE255FE22900BA7055 /* DynamicCollectionViewCell.swift */; };
+		B0B75FF9255FE3FC00BA7055 /* DynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FF8255FE3FC00BA7055 /* DynamicView.swift */; };
+		B0B76004255FE90100BA7055 /* DynamicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B76003255FE90100BA7055 /* DynamicCollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0B75FBD255FE0E500BA7055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B75F9E255FE0E400BA7055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B75FA5255FE0E400BA7055;
+			remoteInfo = DynamicHeightView_Swift;
+		};
+		B0B75FC8255FE0E500BA7055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0B75F9E255FE0E400BA7055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B75FA5255FE0E400BA7055;
+			remoteInfo = DynamicHeightView_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F88421AB91CA44C0F62C42 /* libPods-DynamicHeightView_Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicHeightView_Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C905D430E58F48D68E5AE9 /* Pods-DynamicHeightView_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightView_Swift.debug.xcconfig"; path = "Target Support Files/Pods-DynamicHeightView_Swift/Pods-DynamicHeightView_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CF79CE84D10BEE4A2589D5 /* Pods-DynamicHeightView_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightView_Swift.release.xcconfig"; path = "Target Support Files/Pods-DynamicHeightView_Swift/Pods-DynamicHeightView_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		B0B75FA6255FE0E400BA7055 /* DynamicHeightView_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicHeightView_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B75FA9255FE0E400BA7055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0B75FAD255FE0E400BA7055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0B75FB0255FE0E400BA7055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0B75FB2255FE0E400BA7055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0B75FB5255FE0E400BA7055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0B75FB7255FE0E400BA7055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B75FBC255FE0E500BA7055 /* DynamicHeightView_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightView_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B75FC0255FE0E500BA7055 /* DynamicHeightView_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightView_SwiftTests.swift; sourceTree = "<group>"; };
+		B0B75FC2255FE0E500BA7055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B75FC7255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightView_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B75FCB255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightView_SwiftUITests.swift; sourceTree = "<group>"; };
+		B0B75FCD255FE0E500BA7055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B75FE4255FE1EE00BA7055 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		B0B75FEE255FE22900BA7055 /* DynamicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionViewCell.swift; sourceTree = "<group>"; };
+		B0B75FF8255FE3FC00BA7055 /* DynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicView.swift; sourceTree = "<group>"; };
+		B0B76003255FE90100BA7055 /* DynamicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0B75FA3255FE0E400BA7055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CD9522FD1AFBBC5880D4F /* libPods-DynamicHeightView_Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B75FB9255FE0E500BA7055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B75FC4255FE0E500BA7055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B99F9960BC3CAF636CCA26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0C905D430E58F48D68E5AE9 /* Pods-DynamicHeightView_Swift.debug.xcconfig */,
+				A2CF79CE84D10BEE4A2589D5 /* Pods-DynamicHeightView_Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13017EA6891AF4A2F3877239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F88421AB91CA44C0F62C42 /* libPods-DynamicHeightView_Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0B75F9D255FE0E400BA7055 = {
+			isa = PBXGroup;
+			children = (
+				B0B75FA8255FE0E400BA7055 /* DynamicHeightView_Swift */,
+				B0B75FBF255FE0E500BA7055 /* DynamicHeightView_SwiftTests */,
+				B0B75FCA255FE0E500BA7055 /* DynamicHeightView_SwiftUITests */,
+				B0B75FA7255FE0E400BA7055 /* Products */,
+				01B99F9960BC3CAF636CCA26 /* Pods */,
+				13017EA6891AF4A2F3877239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0B75FA7255FE0E400BA7055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0B75FA6255FE0E400BA7055 /* DynamicHeightView_Swift.app */,
+				B0B75FBC255FE0E500BA7055 /* DynamicHeightView_SwiftTests.xctest */,
+				B0B75FC7255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0B75FA8255FE0E400BA7055 /* DynamicHeightView_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B0B75FA9255FE0E400BA7055 /* AppDelegate.swift */,
+				B0B75FAD255FE0E400BA7055 /* ViewController.swift */,
+				B0B75FE4255FE1EE00BA7055 /* DynamicTableViewCell.swift */,
+				B0B75FF8255FE3FC00BA7055 /* DynamicView.swift */,
+				B0B76003255FE90100BA7055 /* DynamicCollectionView.swift */,
+				B0B75FEE255FE22900BA7055 /* DynamicCollectionViewCell.swift */,
+				B0B75FAF255FE0E400BA7055 /* Main.storyboard */,
+				B0B75FB2255FE0E400BA7055 /* Assets.xcassets */,
+				B0B75FB4255FE0E400BA7055 /* LaunchScreen.storyboard */,
+				B0B75FB7255FE0E400BA7055 /* Info.plist */,
+			);
+			path = DynamicHeightView_Swift;
+			sourceTree = "<group>";
+		};
+		B0B75FBF255FE0E500BA7055 /* DynamicHeightView_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B75FC0255FE0E500BA7055 /* DynamicHeightView_SwiftTests.swift */,
+				B0B75FC2255FE0E500BA7055 /* Info.plist */,
+			);
+			path = DynamicHeightView_SwiftTests;
+			sourceTree = "<group>";
+		};
+		B0B75FCA255FE0E500BA7055 /* DynamicHeightView_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B75FCB255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.swift */,
+				B0B75FCD255FE0E500BA7055 /* Info.plist */,
+			);
+			path = DynamicHeightView_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0B75FA5255FE0E400BA7055 /* DynamicHeightView_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B75FD0255FE0E500BA7055 /* Build configuration list for PBXNativeTarget "DynamicHeightView_Swift" */;
+			buildPhases = (
+				A30FE217723BA3CB66FB3D11 /* [CP] Check Pods Manifest.lock */,
+				B0B75FA2255FE0E400BA7055 /* Sources */,
+				B0B75FA3255FE0E400BA7055 /* Frameworks */,
+				B0B75FA4255FE0E400BA7055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicHeightView_Swift;
+			productName = DynamicHeightView_Swift;
+			productReference = B0B75FA6255FE0E400BA7055 /* DynamicHeightView_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0B75FBB255FE0E500BA7055 /* DynamicHeightView_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B75FD3255FE0E500BA7055 /* Build configuration list for PBXNativeTarget "DynamicHeightView_SwiftTests" */;
+			buildPhases = (
+				B0B75FB8255FE0E500BA7055 /* Sources */,
+				B0B75FB9255FE0E500BA7055 /* Frameworks */,
+				B0B75FBA255FE0E500BA7055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B75FBE255FE0E500BA7055 /* PBXTargetDependency */,
+			);
+			name = DynamicHeightView_SwiftTests;
+			productName = DynamicHeightView_SwiftTests;
+			productReference = B0B75FBC255FE0E500BA7055 /* DynamicHeightView_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0B75FC6255FE0E500BA7055 /* DynamicHeightView_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B75FD6255FE0E500BA7055 /* Build configuration list for PBXNativeTarget "DynamicHeightView_SwiftUITests" */;
+			buildPhases = (
+				B0B75FC3255FE0E500BA7055 /* Sources */,
+				B0B75FC4255FE0E500BA7055 /* Frameworks */,
+				B0B75FC5255FE0E500BA7055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B75FC9255FE0E500BA7055 /* PBXTargetDependency */,
+			);
+			name = DynamicHeightView_SwiftUITests;
+			productName = DynamicHeightView_SwiftUITests;
+			productReference = B0B75FC7255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0B75F9E255FE0E400BA7055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B0B75FA5255FE0E400BA7055 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					B0B75FBB255FE0E500BA7055 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B0B75FA5255FE0E400BA7055;
+					};
+					B0B75FC6255FE0E500BA7055 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B0B75FA5255FE0E400BA7055;
+					};
+				};
+			};
+			buildConfigurationList = B0B75FA1255FE0E400BA7055 /* Build configuration list for PBXProject "DynamicHeightView_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0B75F9D255FE0E400BA7055;
+			productRefGroup = B0B75FA7255FE0E400BA7055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B75FA5255FE0E400BA7055 /* DynamicHeightView_Swift */,
+				B0B75FBB255FE0E500BA7055 /* DynamicHeightView_SwiftTests */,
+				B0B75FC6255FE0E500BA7055 /* DynamicHeightView_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0B75FA4255FE0E400BA7055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B75FB6255FE0E400BA7055 /* LaunchScreen.storyboard in Resources */,
+				B0B75FB3255FE0E400BA7055 /* Assets.xcassets in Resources */,
+				B0B75FB1255FE0E400BA7055 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B75FBA255FE0E500BA7055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B75FC5255FE0E500BA7055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A30FE217723BA3CB66FB3D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicHeightView_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0B75FA2255FE0E400BA7055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B75FF9255FE3FC00BA7055 /* DynamicView.swift in Sources */,
+				B0B75FE5255FE1EE00BA7055 /* DynamicTableViewCell.swift in Sources */,
+				B0B75FAE255FE0E400BA7055 /* ViewController.swift in Sources */,
+				B0B75FEF255FE22900BA7055 /* DynamicCollectionViewCell.swift in Sources */,
+				B0B75FAA255FE0E400BA7055 /* AppDelegate.swift in Sources */,
+				B0B76004255FE90100BA7055 /* DynamicCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B75FB8255FE0E500BA7055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B75FC1255FE0E500BA7055 /* DynamicHeightView_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B75FC3255FE0E500BA7055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B75FCC255FE0E500BA7055 /* DynamicHeightView_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0B75FBE255FE0E500BA7055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B75FA5255FE0E400BA7055 /* DynamicHeightView_Swift */;
+			targetProxy = B0B75FBD255FE0E500BA7055 /* PBXContainerItemProxy */;
+		};
+		B0B75FC9255FE0E500BA7055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B75FA5255FE0E400BA7055 /* DynamicHeightView_Swift */;
+			targetProxy = B0B75FC8255FE0E500BA7055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0B75FAF255FE0E400BA7055 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B75FB0255FE0E400BA7055 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0B75FB4255FE0E400BA7055 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0B75FB5255FE0E400BA7055 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0B75FCE255FE0E500BA7055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0B75FCF255FE0E500BA7055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0B75FD1255FE0E500BA7055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C905D430E58F48D68E5AE9 /* Pods-DynamicHeightView_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicHeightView_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heng.DynamicHeightView-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0B75FD2255FE0E500BA7055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CF79CE84D10BEE4A2589D5 /* Pods-DynamicHeightView_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicHeightView_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heng.DynamicHeightView-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0B75FD4255FE0E500BA7055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicHeightView_SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heng.DynamicHeightView-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightView_Swift.app/DynamicHeightView_Swift";
+			};
+			name = Debug;
+		};
+		B0B75FD5255FE0E500BA7055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicHeightView_SwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heng.DynamicHeightView-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightView_Swift.app/DynamicHeightView_Swift";
+			};
+			name = Release;
+		};
+		B0B75FD7255FE0E500BA7055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicHeightView_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heng.DynamicHeightView-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicHeightView_Swift;
+			};
+			name = Debug;
+		};
+		B0B75FD8255FE0E500BA7055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicHeightView_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "heng.DynamicHeightView-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicHeightView_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0B75FA1255FE0E400BA7055 /* Build configuration list for PBXProject "DynamicHeightView_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B75FCE255FE0E500BA7055 /* Debug */,
+				B0B75FCF255FE0E500BA7055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B75FD0255FE0E500BA7055 /* Build configuration list for PBXNativeTarget "DynamicHeightView_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B75FD1255FE0E500BA7055 /* Debug */,
+				B0B75FD2255FE0E500BA7055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B75FD3255FE0E500BA7055 /* Build configuration list for PBXNativeTarget "DynamicHeightView_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B75FD4255FE0E500BA7055 /* Debug */,
+				B0B75FD5255FE0E500BA7055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B75FD6255FE0E500BA7055 /* Build configuration list for PBXNativeTarget "DynamicHeightView_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B75FD7255FE0E500BA7055 /* Debug */,
+				B0B75FD8255FE0E500BA7055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0B75F9E255FE0E400BA7055 /* Project object */;
+}
