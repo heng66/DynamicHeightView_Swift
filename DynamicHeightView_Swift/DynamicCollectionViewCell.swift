@@ -18,7 +18,8 @@ class DynamicCollectionViewCell: UICollectionViewCell {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.textAlignment = .left
+        label.backgroundColor = .orange
+        label.textAlignment = .center
         label.font = UIFont.systemFont(ofSize: 15)
         label.textColor = .black
         label.sizeToFit()
@@ -27,6 +28,7 @@ class DynamicCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        contentView.backgroundColor = .yellow
         initWithSubView()
         setSubViewConstraint()
     }

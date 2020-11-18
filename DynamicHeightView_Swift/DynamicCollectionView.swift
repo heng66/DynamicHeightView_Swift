@@ -17,7 +17,7 @@ class DynamicCollectionView: UICollectionView {
     }
     
     override var intrinsicContentSize: CGSize {
-        return contentSize
+        return self.contentSize
     }
     
 }

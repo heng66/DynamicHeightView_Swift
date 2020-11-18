@@ -19,6 +19,7 @@
 		B0B75FEF255FE22900BA7055 /* DynamicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FEE255FE22900BA7055 /* DynamicCollectionViewCell.swift */; };
 		B0B75FF9255FE3FC00BA7055 /* DynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B75FF8255FE3FC00BA7055 /* DynamicView.swift */; };
 		B0B76004255FE90100BA7055 /* DynamicCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B76003255FE90100BA7055 /* DynamicCollectionView.swift */; };
+		B0C61892256525970091AB82 /* UIDevice+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C61891256525970091AB82 /* UIDevice+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B0B75FEE255FE22900BA7055 /* DynamicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionViewCell.swift; sourceTree = "<group>"; };
 		B0B75FF8255FE3FC00BA7055 /* DynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicView.swift; sourceTree = "<group>"; };
 		B0B76003255FE90100BA7055 /* DynamicCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCollectionView.swift; sourceTree = "<group>"; };
+		B0C61891256525970091AB82 /* UIDevice+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				B0B75FF8255FE3FC00BA7055 /* DynamicView.swift */,
 				B0B76003255FE90100BA7055 /* DynamicCollectionView.swift */,
 				B0B75FEE255FE22900BA7055 /* DynamicCollectionViewCell.swift */,
+				B0C61891256525970091AB82 /* UIDevice+Extention.swift */,
 				B0B75FAF255FE0E400BA7055 /* Main.storyboard */,
 				B0B75FB2255FE0E400BA7055 /* Assets.xcassets */,
 				B0B75FB4255FE0E400BA7055 /* LaunchScreen.storyboard */,
@@ -320,6 +323,7 @@
 				B0B75FF9255FE3FC00BA7055 /* DynamicView.swift in Sources */,
 				B0B75FE5255FE1EE00BA7055 /* DynamicTableViewCell.swift in Sources */,
 				B0B75FAE255FE0E400BA7055 /* ViewController.swift in Sources */,
+				B0C61892256525970091AB82 /* UIDevice+Extention.swift in Sources */,
 				B0B75FEF255FE22900BA7055 /* DynamicCollectionViewCell.swift in Sources */,
 				B0B75FAA255FE0E400BA7055 /* AppDelegate.swift in Sources */,
 				B0B76004255FE90100BA7055 /* DynamicCollectionView.swift in Sources */,
